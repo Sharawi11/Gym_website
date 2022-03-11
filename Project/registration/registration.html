@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gold's Gym</title>    
+        <script src="https://kit.fontawesome.com/57591aa216.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="project .css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="JavaScript.js"></script>
+        
+    </head>
+    
+    <body id="mypage">
+
+        <div class="container-fluid mynavbar">
+
+            <div class="row  align-items-center">
+              <div class="col-md-3 col-xs-12">
+                <img src="final_logo.png" id="navimg">
+              </div>
+        
+              <div class="col-md-9 col-xs-12" id="bar">
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\main page\web_projectmain_page.html">HOME</a>
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\subscribtion\web_projectsub_page.html">SUBSCRPTIONS</a>
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\meet our team\meet_our_team.html">TEAM</a>         
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\facilities\facilities.html" class="hide">FACILITIES</a>
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\about us\aboutUs.html" class="hide">ABOUT US</a>
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\reach us\reach_us.html" class="hide">REACH US</a>
+                  <a href="D:\Profile Data\Desktop\Uni\Y2S1\Webpage design and Internet programming\Project\Project\registration\registration.html" class="hide">PROFILE</a>
+        
+        <!--------------------------- HIDING BUTTON here ! ---------------------------->
+                  <a><button onclick="myFunction();" id="button">SHOW MORE</button></a>
+              </div>  
+        
+            </div>
+        
+          </div>
+        
+<!------------------------------- END OF NAVIGATION BAR ---------------------------> 
+
+<!------------------------------- SIGN  UP FORM ---------------------------> 
+
+
+<div class="container-fluid">
+
+<div class="row">  
+<div class="col-8" id="signup-block">
+    
+    <div id="signUpdiv"> 
+    <h1 >Sign up</h1>
+
+    <br>
+
+    <form method="POST" id="signUp-form" action="signup.php">
+    <div>
+        <label for="name"><i class="fas fa-user icons"></i></i></i></label>
+        <input type="text" name="name" id="name" placeholder="Your Name"/>
+    </div>
+    <br>
+    <div >
+        <label for="email"><i class="fas fa-envelope icons"></i></i></label>
+        <input type="email" name="email" id="email" placeholder="Your Email"/>
+    </div>
+    <br>
+    <div >
+        <label for="pass"><i class="fas fa-lock icons"></i></i></label>
+        <input type="password" name="pass" id="pass" placeholder="Password"/>
+    </div>
+    <br>
+    <div >
+        <label for="re-pass"><i class="fas fa-lock icons"></i></label>
+        <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+    </div>
+    <br>
+    <div >
+        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+        <label for="agree-term">I agree all terms of service.</label>
+    </div>
+    
+    <div >
+        <input type="submit" name="signup" id="signup" value="Register"/>
+    </div>
+
+
+    <a href="#login-block" class="links">I am already a member.</a>
+    </form>
+    </div>
+
+    <div id="imgDiv" style="width: 50%;">
+        <img id="signUpImg" src="signup.jpg">
+    </div>
+</div>
+</div>  
+ 
+   
+
+<!------------------------------- LOG IN FORM ---------------------------> 
+<br><br><br>
+
+<div class="row">
+<div class="col-8" id="login-block">
+
+    <div id="imgDiv">
+        <img id="loginImg" src="login.jpg">
+    </div>
+
+   <div id="loginDiv"> 
+    <h1 >Log in</h1>
+    <br>
+    <form method="POST" id="login-form" action="login.php">
+        <div >
+            <label for="your_name"><i class="fas fa-user icons"></i></i></i></label>
+            <input type="text" name="your_name" id="your_name" placeholder="Your Name"/>
+        </div>
+        <br><br>
+        <div >
+            <label for="your_pass"><i class="fas fa-lock icons"></i></i></label>
+            <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+        </div>
+        <br>
+        <div >
+            <input type="submit" name="login" id="login" value="Log in"/>
+        </div>
+    </form>
+    <br>
+    <a class="links" href="#signup-block" >Don't have an account ?</a>
+   </div>
+   
+</div>
+
+<div class="extra"></div>
+        
+</div>    
+</div>
+
+<!----------------------------------------- FOOTER ----------------------------------------------->    
+    <div class="container-fluid">
+    <div class="row" id="footer">          
+      <div class="col-md-4 col-xs-12 footerDivs">
+        <p class="boldOptions">Connect with us:</p>
+        <a href="https://twitter.com/GoldsGymJordan"> <i style=" margin-left: 15px;" class="fab fa-twitter-square"></i></a>
+        <a href="https://www.facebook.com/Goldsgymjordan/"> <i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/accounts/login/"> <i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.youtube.com/c/GoldsGymJordan"> <i class="fab fa-youtube-square"></i></a>
+      </div>
+      
+    
+    
+      <div class="col-md-4 col-xs-12 footerDivs">
+        <p class="boldOptions">Regular Working Hours:</p>
+        <p style="margin-top: 7px;">Monday-Friday: 06:00-22:00</p>
+      </div>
+    
+    
+    
+      <div class="col-md-4 col-xs-12 footerDivs">
+        <p class="boldOptions">Contact us:</p>
+        <p>Phone: +962 1523 4452 <br> <a href = "mailto: inquiries@goldsgym.jo">Email</a></p>
+      </div>
+    </div>
+  </div>
+       
+  
+  <div class= "back_to_top">
+    <a class="button" href="#mypage"><span class="large_font">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+  <!----------------- JAVA SCRIPT ---------------  
+  <script>
+    function myFunction(){
+    var x = document.getElementsByClassName("hide");
+     
+    for(i=0 ; i<x.length ; i++){
+        if(x[i].style.display === "none"){
+            x[i].style.display = "inline-block";
+        }
+        else x[i].style.display = "none";
+    }
+    }
+  </script>
+ --->
+</body> 
+</html>

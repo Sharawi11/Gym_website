@@ -1,0 +1,400 @@
+*{
+  box-sizing: border-box;
+  font-family: calibri;
+  color: whitesmoke;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+
+.mynavbar {
+  background-color: black;
+  border-bottom:  #7B67B4 7px solid;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#mypage{
+  background-color: #1F1F1F;
+}
+
+#navbar{
+  display: flex;
+  height: 119px;
+  left: 20px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  border-bottom:  #7B67B4 7px solid;
+ 
+}
+
+#navimg{
+  width: 100%; 
+  margin: 5px;
+  padding: 5px; 
+  float: left;
+}
+
+#bar {
+margin-top: 45px;
+bottom: 0px;
+overflow: hidden;
+text-align: center;
+font-weight: bold;
+}
+
+#bar a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+padding-left: 25px;
+}
+
+#bar button{
+  font-weight: bold;
+}
+
+#bar a:hover {
+background-color: #7B67B4;
+color: black;
+}
+
+/*#bar a.active {
+color: #7B67B4;
+}*/
+
+/*.......................... END OF NAVBAR ....................................*/
+
+
+/*.......................... ABOUT US ....................................*/
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#video{
+  margin-top: 40px;
+  margin-bottom: 0px;
+  /*height: 600px;*/
+}
+
+#about{
+   
+    width: 100%;
+    margin-right: 290px;
+    margin-top: 15px;
+    color: black;
+    background-color: #7B67B4;
+    font-weight: bold;
+    font-size: 37px;
+
+    padding: 5px 0px 5px 8px;
+
+}
+
+.divs{   
+  text-align: left;   
+  word-wrap: break-word;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  font-size: 25px;
+}
+
+#img{
+  width: 100%; 
+  margin-top: 30px;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.list{
+    font-size: 24px;
+}
+
+.underlist{
+    font-size: 22px;
+}
+
+
+
+/*------------------------- LOG IN/SIGN UP ----------------------------------*/
+#signup-block{
+  display: flex;
+  padding: 20px 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1F1F;
+  border-radius: 10px 10px 10px 10px;
+  border:  #7B67B4 3px solid;
+  margin:0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 2px 8px 3px #7B67B4;
+}
+
+
+#signUpdiv{
+  width: 50%;
+  text-align: center;
+  font-size: 22px;
+}
+
+#signUpImg{
+  width: 270px; 
+  float:left; 
+  height:430px; 
+  margin: 50px 20px 30px 50px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 8px 3px whitesmoke;
+
+}
+
+#loginImg{
+  width: 270px; 
+  float:left; 
+  height:430px; 
+  margin: 50px 20px 30px 50px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 8px 3px whitesmoke;
+}
+
+#signUp-form{
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#login-block{
+  display: flex;
+  padding: 20px 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1F1F;
+  border-radius: 10px 10px 10px 10px;
+  border:  #7B67B4 3px solid;
+  margin:0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 2px 8px 3px #7B67B4;
+}
+
+#loginDiv {
+  width: 50%;
+  text-align: center;
+  font-size: 22px;
+}
+
+.profdiv{
+width: 299px; 
+float:left; 
+height:450px; 
+
+margin-left: 80px;
+margin-top: 85px;
+word-wrap: break-word;
+
+text-align: center;
+font-size: 22px;
+}
+
+
+.icons{
+font-size: 20px;
+color: whitesmoke;
+}
+
+input[type="text"],[type="password"],[type="email"]{
+font-size: 25px;
+color: black;
+background-color: #1F1F1F;
+border-bottom:  #7B67B4 2px solid;
+border-right: none;
+border-top: none;
+border-left: none;
+
+margin-left: 5px;
+}
+
+input:hover{
+  box-shadow: 0 6px 4px -4px #7B67B4;
+}
+
+#login,#signup{
+font-size: 22px;
+color: black;
+font-weight: bold;
+}
+
+.links{
+font-size: 18px;
+color: whitesmoke;
+}
+
+.extra{
+width: 100%;
+height: 180px;
+margin-top:10px;
+background-color: #1F1F1F;
+}
+
+/*---------------FOOTER------------------------------------------*/
+
+
+.large_font{
+   font-size: 24px;
+}
+
+.back_to_top{
+  position:absolute;
+  right:0;
+  bottom: 15px;
+  margin-right:20px;
+  z-index:1;
+  text-align:right;
+}
+
+#footer{
+  
+  background-color:black;
+  bottom: 100%;    
+  text-align: center;
+  
+  border-top:  #7B67B4 7px solid;
+}
+
+.footerDivs{  
+  display: inline-block;
+  color: whitesmoke;
+}
+
+.footerDivs i{
+  color: whitesmoke;
+  font-size: 35px;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+ 
+}
+
+#footer p{
+  text-align: center;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.boldOptions{
+  font-weight: bold;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+
+/*---------------- ALL MEDIA QUERY IS DOWN HERE ------------ */
+
+@media screen and (min-width: 600px){
+
+  /* SHOW the OPTIONS when the screen is small*/
+  .hide{
+    display: inline-block;
+  }
+
+  /* SHOW the BUTTON when the screen is small*/
+  #button{
+    display: none;
+  }
+
+  
+}
+
+@media screen and (max-width: 991px){
+
+  #bar {
+    top: 0px;
+  }
+
+  #bar a{
+    font-size: 19px;
+  }
+
+  #navimg{
+    width:60% ;
+    
+  }
+
+  /* HIDE the OPTIONS when the screen is small*/
+  .hide{
+    display:none;
+  }
+
+  /* HIDE the BUTTONS when the screen is small*/
+  #button{
+    display: inline-block;
+    color: black;
+  }
+  
+  #login,#signup{
+    font-size: 12px;
+    
+  }
+
+  #signUpdiv{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;    
+  }
+  
+  #signUpdiv h1{ 
+    font-size: 35px;
+  }
+
+  #signUpImg,#imgDiv{
+    display: none;
+  }
+
+  #login,#signup{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .profdiv{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #profdiv h1{ 
+    font-size: 35px;
+  }
+    
+
+  .icons{
+    font-size: 20px;
+  }
+    
+  input[type="text"],[type="password"],[type="email"]{
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  
+}
+
